@@ -1,85 +1,27 @@
 body {
+  margin-top: 2%;
   background-image: url("./Hexagons\ Tech\ Background\ 01_preview1.jpg")
 }
-
-#about{
+.navbar-bar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+.nav{
+  color: ghostwhite;
   font-size: 30px;
   padding-left: 2.5%;
   padding-right: 2.5%;
-  background-color: ghostwhite;
-  padding: 1%;
-  border: 5px solid rgb(0, 0, 0);
-  color: black;
+  
 }
-#about:hover{
+
+.nav:hover{
   color: blue;
 
-}
-
-#educ {
-  font-size: 30px;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
-  background-color: ghostwhite;
-  padding: 1%;
-  border: 5px solid rgb(0, 0, 0);
-  color: black;
-}
-
-#educ:hover{
-  color: blue;
-}
-
-#exper{
-  font-size: 30px;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
-  background-color: ghostwhite;
-  padding: 1%;
-  border: 5px solid rgb(0, 0, 0);
-  color: black;
-}
-#exper:hover{
-  color: blue;
-}
-#achie{
-  font-size: 30px;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
-  background-color: ghostwhite;
-  padding: 1%;
-  border: 5px solid rgb(0, 0, 0);
-  color: black;
-}
-#achie:hover{
-  color: blue;
-}
-#proj{
-  font-size: 30px;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
-  background-color: ghostwhite;
-  padding: 1%;
-  border: 5px solid rgb(0, 0, 0);
-  color: black;
-}
-
-#proj:hover{
-  color: blue;
-}
-
-#cont{
-  font-size: 30px;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
-  background-color: ghostwhite;
-  padding: 1%;
-  border: 5px solid rgb(0, 0, 0);
-  color: black;
-}
-
-#cont:hover{
-  color: blue;
 }
 
 h1 {
@@ -92,76 +34,49 @@ h1 {
 }
 
 
-div.h2{
+h2{
   color:rgb(235, 235, 235);
   font-size:25px;
   text-align: center;
   margin-top: 0%;
 }
 
-h2{
-  margin-top:0%;
-}
-
-
-
 div.container1 {
     margin-top:0%;
-    text-align: center;
-    
-    
+    text-align: center;    
+}
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between
 }
 
 .wrap{
   display: flex;
   justify-content: space-evenly;
 }
-
-#aboutme {
+.info{
   background-color: ghostwhite;
   width: 20%;
-  float: left;
   padding: 1%;
   border: 5px solid rgb(0, 0, 0);
+  margin-bottom: 1%;
+  
 }
 
-#education {
-  background-color: ghostwhite;
-  width: 20%;
-  float: left; 
-  padding: 1%;
-  border: 5px solid rgb(0, 0, 0);    
+#dicegame{
+  margin:1%;
 }
-
-#experience{
-  background-color: ghostwhite;
-  width: 20%;
-  float: left;
-  padding: 1%;
-  border: 5px solid rgb(0, 0, 0);
-}
-
-#achievement {
-  background-color: ghostwhite;
-  width: 20%;
-  float: left;
-  padding: 1%;
-  border: 5px solid rgb(0, 0, 0);
-}
-
 #project{
   background-color: ghostwhite;
   width: 99%;
-  float: left;
   padding: 1%;
   border: 5px solid rgb(0, 0, 0);
 }
 
 #contact {
-  background-color: ghostwhite;
-  width: 21%;
-  float: left;
+  color: white;
+  width: 100%;
   padding: 1%;
-  border: 5px solid rgb(0, 0, 0); 
+  text-align: center;
 }
-
