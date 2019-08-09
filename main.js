@@ -25,6 +25,7 @@ navbarmob.addEventListener("click", () => {
     times.style.display = "none";
     mobli.style.display = "none";
     bar.style.display = "block";
+    window.scrollTo(0, 500);
     
 });
 
@@ -32,30 +33,27 @@ navbarmobex.addEventListener("click", () => {
     times.style.display = "none";
     mobli.style.display = "none";
     bar.style.display = "block";
+    window.scrollTo(0, 650);
     
 });
 navbarmobach.addEventListener("click", () => {
     times.style.display = "none";
     mobli.style.display = "none";
     bar.style.display = "block";
+    window.scrollTo(0, 1000);
     
 });
 navbarmobpro.addEventListener("click", () => {
     times.style.display = "none";
     mobli.style.display = "none";
     bar.style.display = "block";
-    
+    window.scrollTo(0, 1000);
+
 });
 navbarmobcon.addEventListener("click", () => {
     times.style.display = "none";
     mobli.style.display = "none";
     bar.style.display = "block";
+    window.scrollTo(0, 1000);
     
 });
-window.addEventListener('scroll', function() {
-    document.getElementById('showScroll').innerHTML = pageYOffset + '100px';
-  });
-
-var shiftWindow = function() { scrollBy(5, -40) };
-       window.addEventListener("hashchange", shiftWindow);
-       function load() { if (window.location.hash) shiftWindow(); }
