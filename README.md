@@ -14,4 +14,4 @@ You will also see any lint errors in the console.
 
 ## Deploy
 
-Add any changes to GitHub repo which will Start the publishing process. When completed check the [website](https://hamadali248.github.io/portfolio/) 
+Add any changes to GitHub repo which will Start the publishing process. When completed check the [website](https://hamadali248.github.io/basic-portfolio/) 
